@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        section { margin: 20px 0; }
+        code { background-color: #f4f4f4; padding: 2px 5px; }
+    </style>
+</head>
+<body>
+
+    <!-- Basic Structure -->
+    <header>
+        <h1>Welcome to HTML Tag Demo Page</h1>
+        <nav>
+            <a href="#text-content">Text Content</a> | 
+            <a href="#lists">Lists</a> | 
+            <a href="#links-media">Links and Media</a>
+        </nav>
+    </header>
+
+    <!-- Metadata -->
+    <section>
+        <h2>Metadata</h2>
+        <p><code>&lt;meta&gt;</code> tags go in the <code>&lt;head&gt;</code> section and provide information about the document.</p>
+    </section>
+
+    <!-- Text Content -->
+    <section id="text-content">
+        <h2>Text Content Tags</h2>
+        <p>This is a <b>bold</b> and <strong>strong</strong> statement.</p>
+        <p>This is an <i>italic</i> and <em>emphasized</em> statement.</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>This text has a <del>deleted</del> part and an <ins>inserted</ins> part.</p>
+        <p>Using <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+        <p>A <small>smaller</small> text example.</p>
+    </section>
+
+    <!-- Lists -->
+    <section id="lists">
+        <h2>Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <!-- Links and Media -->
+    <section id="links-media">
+        <h2>Links and Media</h2>
+        <p>Link to <a href="https://example.com">Example</a>.</p>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+        <video width="320" height="240" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Table</h2>
+        <table border="1">
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Forms -->
+    <section>
+        <h2>Forms</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label>Subscribe:</label>
+            <input type="checkbox" name="subscribe" value="newsletter">Newsletter
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Semantic Tags -->
+    <section>
+        <h2>Semantic Tags</h2>
+        <article>
+            <h3>Sample Article</h3>
+            <p>This is a standalone article element.</p>
+            <footer>Written by Author</footer>
+        </article>
+        <aside>
+            <p>This is an aside, for related information.</p>
+        </aside>
+    </section>
+
+    <!-- Embeds -->
+    <section>
+        <h2>Embedded Content</h2>
+        <iframe src="https://example.com" width="300" height="200" title="Embedded Site"></iframe>
+    </section>
+
+    <!-- Interactive Elements -->
+    <section>
+        <h2>Interactive Elements</h2>
+        <details>
+            <summary>Click to reveal more information</summary>
+            <p>This is additional information that can be toggled.</p>
+        </details>
+    </section>
+
+</body>
+</html>
